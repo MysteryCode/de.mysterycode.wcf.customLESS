@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.mysterycode.wcf.customLESS" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[Custom LESS]]></packagename>
+		<packagedescription><![CDATA[Implements a form to save custom less for every style]]></packagedescription>
+		<version>1.0.0</version>
+		<date>2014-11-11</date>
+	</packageinformation>
+	
+	<authorinformation>
+		<author><![CDATA[Florian Gail]]></author>
+		<authorurl><![CDATA[http://www.mysterycode.de]]></authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="2.0.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<instruction type="acpTemplate">acpTemplate.tar</instruction>
+		<instruction type="file">files.tar</instruction>
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="acpMenu">acpMenu.xml</instruction>
+	</instructions>
+</package>
