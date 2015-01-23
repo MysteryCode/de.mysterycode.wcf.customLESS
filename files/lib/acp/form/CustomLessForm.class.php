@@ -57,7 +57,7 @@ class CustomLessForm extends AbstractForm {
 		
 		$string = '';
 		
-		if(empty($this->customLess)) {
+		if (empty($this->customLess)) {
 		$string = '// DO NOT EDIT!
 ';
 		}
@@ -69,7 +69,7 @@ class CustomLessForm extends AbstractForm {
 		$styleList = new StyleList();
 		$styleList->readObjects();
 		
-		foreach($styleList->getObjects() as $style) {
+		foreach ($styleList->getObjects() as $style) {
 			StyleHandler::getInstance()->resetStylesheet($style);
 		}
 		
@@ -89,7 +89,7 @@ class CustomLessForm extends AbstractForm {
 		
 		$file = FileUtil::getRealPath(WCF_DIR) . 'style/custom_mysterycode.less';
 		
-		if(file_exists($file)) {
+		if (file_exists($file)) {
 			$this->customLess = file_get_contents($file);
 		}
 	}
