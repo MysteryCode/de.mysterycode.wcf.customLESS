@@ -3,8 +3,9 @@
 	<packageinformation>
 		<packagename><![CDATA[Custom LESS]]></packagename>
 		<packagedescription><![CDATA[Implements a form to save custom less for every style]]></packagedescription>
-		<version>1.0.0</version>
-		<date>2014-11-11</date>
+		
+		<version>1.0.1</version>
+		<date>2015-01-28</date>
 	</packageinformation>
 	
 	<authorinformation>
@@ -19,6 +20,15 @@
 	<instructions type="install">
 		<instruction type="acpTemplate">acpTemplate.tar</instruction>
 		<instruction type="file">files.tar</instruction>
+		
+		<instruction type="language">language/*.xml</instruction>
+		<instruction type="acpMenu">acpMenu.xml</instruction>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.0.0">
+		<instruction type="acpTemplate">acpTemplate.tar</instruction>
+		<instruction type="file">files.tar</instruction>
+		
 		<instruction type="language">language/*.xml</instruction>
 		<instruction type="acpMenu">acpMenu.xml</instruction>
 	</instructions>
