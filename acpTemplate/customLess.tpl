@@ -7,7 +7,7 @@
 {include file='formError'}
 
 {if $success|isset}
-	<p class="success">{lang}wcf.global.success.{$action}{/lang}</p>
+	<p class="success">{lang}wcf.global.success{/lang}</p>
 {/if}
 
 <div class="contentNavigation">
