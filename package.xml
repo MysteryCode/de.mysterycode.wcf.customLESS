@@ -27,7 +27,7 @@
 	
 	<instructions type="update" fromversion="1.0.0">
 		<instruction type="acpTemplate">acpTemplate.tar</instruction>
-		<instruction type="file">files.tar</instruction>
+		<instruction type="file">files_update.tar</instruction>
 		
 		<instruction type="language">language/*.xml</instruction>
 		<instruction type="acpMenu">acpMenu.xml</instruction>
