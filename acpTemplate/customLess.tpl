@@ -30,7 +30,7 @@
 				</dd>
 			</dl>
 		</fieldset>
-		{include file='codemirror' codemirrorMode='less' codemirrorSelector='#individualLess, #overrideLess'}
+		{include file='codemirror' codemirrorMode='text/x-less' codemirrorSelector='#individualLess'}
 		
 		{event name='fieldsets'}
 	</div>
