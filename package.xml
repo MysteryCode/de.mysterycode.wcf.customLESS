@@ -18,7 +18,7 @@
 	</requiredpackages>
 	
 	<excludedpackages>
-		<excludedpackage minversion="3.0.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
+		<excludedpackage version="3.0.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
 	</excludedpackages>
 	
 	<instructions type="install">
